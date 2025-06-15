@@ -1,0 +1,53 @@
+html, body{
+  width:500px;
+  margin-right: auto;
+  margin-left : auto;
+  background-color: #fdd5d5;
+}
+h1{
+  text-align: center;
+  font-size: 24px;
+}
+input[type="submit"]{
+  background-color: #081ee6;
+  color: #fff;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+}
+input[type="submit"]:hover{
+  background-color: #4157ff;
+}
+main{
+  background-color: #f0f0f0;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.1);
+}
+input[type="text"],
+input[type="tel"],
+input[type="email"],
+input[type="address"],
+input[type="question"],
+select{
+  width: 300px;
+  padding: 10px;
+  margin: auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-sizing: border-box;
+}
+.form-name,
+.form-age,
+.form-tel,
+.form-email,
+.form-address,
+.form-question,
+.form-gender,
+.form-submit{
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  margin-left: 80px;
+}
